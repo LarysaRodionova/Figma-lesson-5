@@ -1,0 +1,139 @@
+html,
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color:#070707;
+    ;
+}
+
+.container, .about_me {
+    max-width: 970px;
+    margin: 0 auto;
+    border: 1px solid #000;
+
+}
+
+/* --------- Header --------- */
+/* .header { */
+    /* background: aqua; */
+/* } */
+
+.nav {
+    padding: 28px 0;
+    border-bottom: 1px solid #828282;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color:  #828282;
+
+}
+
+a:hover {
+    color: #070707;
+
+}
+/* ------------------------ About me----------------- */
+
+.name {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.about_me {
+    background: #F6F6F6;
+    text-align: center;
+}
+.about_me p{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.first_screen {
+    max-width: 970px;
+    margin: 0 auto;
+}
+.my_photo {
+    display: block;
+    height: 497px;
+    width: 970px;
+}
+/* ------------------------Skills----------------- */
+
+.skills {
+    text-align: center;
+}
+.applications {
+    display: inline-block;
+    width: calc(25%-64px);
+    text-align: center;
+    background-color: #f0f4f4;
+    padding: 20px 10px;
+    margin: 0 20px;
+
+}
+/* ------------------------Portfolio----------------- */
+.portfolio {
+    background: #F6F6F6;
+    text-align: center;
+}
+
+.portfolio p {
+    font-size: 13px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    }
+#grid-container {
+  
+    background-color: #F6F6F6;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+      }
+      
+#grid-container > div {
+    border: 1px solid black;
+    background-color:#F6F6F6;
+    }
+    /* ------------------------Contacts----------------- */
+
+.button  {
+    width: 180px;
+    height: 44px;
+    background: #070707;
+    border-radius: 22px;
+    border: none;
+    text-align: center;
+}
+.button p {
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.contacts {
+    text-align: center;
+}
+.contacts-small{
+    text-align: center;
+    font-size: 14px;
+}
+.social-group {
+    display: inline-block;
+    width: calc(25%-64px);
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0 20px;
+}
